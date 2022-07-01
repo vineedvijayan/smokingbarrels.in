@@ -14,8 +14,8 @@
 	
 }
 @media only screen and (max-width: 600px) {
-	image {
-
+	.image {
+		height: 100vh;
 	  background-image: url(../img/webmob.jpg);
 	}
   }
