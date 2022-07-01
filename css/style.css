@@ -4,15 +4,21 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
-image{
+.image{
 	height: 100vh;
-
-
+	width: 100%;
+	background-image: url(../img/web.jpg);
 	
 	background-size: cover;
 	background-position: center;
 	
 }
+@media only screen and (max-width: 600px) {
+	image {
+
+	  background-image: url(../img/main-img.png);
+	}
+  }
 nav{
 	display: flex;
 	align-items: center;
